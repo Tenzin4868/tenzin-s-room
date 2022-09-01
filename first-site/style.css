@@ -1,0 +1,21 @@
+body {
+    background:darkseagreen;
+    background-image: url("img/funny-pictures.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+p {
+    color:rgb(255, 0, 0);
+    background-color:chartreuse;
+    font-family: fantasy;
+    padding: 50px;
+}
+.special {
+    color:bisque;
+    background: rgb(92, 92, 92);
+    font-size: 30px;
+    font-family: cursive;
+    margin:30px;
+}
