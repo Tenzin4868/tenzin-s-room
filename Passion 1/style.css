@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color:blue; 
+    margin: auto;
+    padding: 10px;
+    border:0mm;
+
+    
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Times New Roman;
+    
+}
+
+p {
+    color:lightblue;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}

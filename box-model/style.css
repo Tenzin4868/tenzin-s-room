@@ -1,0 +1,34 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    background-color:cornflowerblue;
+}
+
+.content {
+    background-color:darkslateblue;
+    color:blanchedalmond;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:2px solid chartreuse;
+    margin: 50px auto;
+}
+
+body {
+    margin:0;
+    background-color:cornflowerblue;
+}
+
+.border {
+    background-color:darkslateblue;
+    color:blanchedalmond;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:2px solid chartreuse;
+    margin:50px;
+    box-sizing:border-box;
+}
