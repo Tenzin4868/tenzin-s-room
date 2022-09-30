@@ -1,3 +1,20 @@
 body {
-    background-color:rgb(133, 133, 244)
+    background-color:lightblue;
+    font-family:fantasy;
+    font-size: 35px;
+    position:fixed;
 }
+
+p{
+    background-color:lightcoral;
+    justify-content: center;
+}
+
+ {
+    font-family:Times New Roman;
+    font-size: 50px;
+    position: relative;
+    justify-content: center;
+
+}
+

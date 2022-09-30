@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 130%;
+    height: 150vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.bub{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(0, 247, 255);
+    box-shadow: inset 5px -5px 13px white;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .01);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: -350px;  
+    animation: bubble 3s ease-in infinite;
+}
+
+.bub::before{
+    position: absolute;
+    content: "";
+    background-color:white;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 25px;
+    left: 25px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.bub.a {
+    left: 10%;
+    animation: bubble2 2s ease-in 1s infinite;
+}
+
+.bub.b {
+    left: 20%;
+    animation: bubble 1.5s ease-in 1.4s infinite;
+}
+
+.bub.c {
+    left: 28%;
+    animation: bubble 5s ease-in 3.8s infinite;
+}
+
+.bub.d {
+    left: 40%;
+    animation: bubble 1.8s ease-in .5s infinite;
+}
+
+.bub.e {
+    left: 75%;
+    animation: bubble2 2.3s ease-in 2.5s infinite;
+}
+
+.bub.f {
+    left: 90%;
+    animation: bubble 2.5s ease-in 3s infinite;
+}
+
+.bub.g {
+    left: 60%;
+    animation: bubble 2.2s ease-in 2s infinite;
+}
+
+.bub.k {
+    left: 50%;
+    animation: bubble 1.6s ease-in 2s infinite;
+}
+
+.bub.i {
+    left: 3%;
+    animation: bubble2 2s ease-in 1.5s infinite;
+}
+
+.bub.j {
+    left: 65%;
+    animation: bubble 1.8s ease-in 2.1s infinite;
+}
+
+.bub.k {
+    left: 35%;
+    animation: bubble2 3s ease-in infinite;
+}
+
+.bub.l {
+    left: 75%;
+    animation: bubble2 4s ease-in 3.5s infinite;
+}
+
+.bub.m {
+    left: 15%;
+    animation: bubble 4.5s ease-in infinite;
+}
+
+.bub.n {
+    left: 95%;
+    animation: bubble2 5.7s ease-in 4.6s infinite;
+}
+
+@keyframes bubble {
+    0% {
+        opacity: 0;
+    }
+    10%,
+    93% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(90px, -700px);
+        display: none;
+    }
+}
+
+@keyframes bubble2 {
+    0% {
+        opacity: 0;
+    }
+    10%, 
+    93% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-90px, -700px);
+        display: none;
+    }
+}
