@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:20px;
+    background-color:rgb(202, 202, 140);
+    transition: background-color 2s;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+header {
+    background-color:rgb(223, 84, 84);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+main nav, main div, footer {
+    padding: 10px;
+    background-color:blanchedalmond;
+}
+
+nav {
+    width: 25%;
+}
+
+.center {
+    width: 50%;
+}
+
+.details {
+    width: 25%;
+}
+
+footer {
+    text-align: center;
+}
+
+.secret {
+    text-align:center;
+    background-color:rgb(223, 84, 84);
+    font-size:20px;
+    border-radius:50%;
+    padding:20px;
+    margin-bottom:10px;
+    display:none;
+}
+
+/*
+   min-width = mobile-first design
+   - scalable
+   - constrained form (result is most sites now look the same)
+   
+   max-width = desktop-first design
+   - more work to make resposive
+   - more diverse forms and layouts
+
+*/
+
+@media screen and (min-width:800px) {
+    body {
+        background-color: darkturquoise;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    nav, .center, .details {
+        width:100%;
+    }
+
+    .secret {
+        display:block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color:rgb(172, 138, 189); 
+        font-size:200%;
+    }     
+}

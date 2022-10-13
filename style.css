@@ -5,6 +5,10 @@ body {
     position:fixed;
 }
 
+div {
+    text-align: center;
+}
+
 p{
     background-color:lightcoral;
     justify-content: center;
