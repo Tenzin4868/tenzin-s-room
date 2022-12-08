@@ -1,7 +1,60 @@
 <!doctype html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            Body {
+                background-color: rgb(245, 197, 135);
+            }
+            
+            header {
+                font-family: Times New Roman;
+                font-size: 35px;
+                text-align:center;
+                background-color: lightskyblue;
+                transition: background-color 2s;
+            }
+            
+            .column {
+              float: left;
+              width: 25%;
+              padding: 25px;
+            }
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            @media screen and (max-width: 992px) {
+              .column {
+                width: 50%;
+              }
+            }
+            
+            @media screen and (max-width: 600px) {
+              .column {
+                width: 100%;
+              }
+            }
+            
+            @media screen and (max-width: 992px) {
+                header {
+                    background-color: lightgreen;
+                }
+            }
+            
+            @media screen and (max-width: 600px) {
+                header {
+                    background-color:coral;
+                }
+            }
+            </style>
         <title>Tenzin's Room</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="my icon/jpg" href="my icon.jpg">
@@ -18,7 +71,7 @@
             <marquee behavior="alternate" direction="right"><li><a href="screensaver/index.html">screensaver</a></li></marquee>
             <marquee behavior="alternate" direction="left"><li><a href="accordion/index.html">accordion</a></li></marquee>
             <marquee behavior="alternate" direction="right"><li><a href="control/index.html">control</a></li></marquee>
-            <marquee behavior="alternate" direction="left"><li><a href="personal-portfolio/index.html">final</a></li></marquee>
+            <marquee behavior="alternate" direction="left"><li><a href="personal-portfolio/index.html">final</a></li></marquee> 
         </ul>
     </body>
 </html>
