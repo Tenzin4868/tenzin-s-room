@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgoldenrodyellow;
+    font-size: 18px;
+}
+div{
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
